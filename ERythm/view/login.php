@@ -20,19 +20,33 @@ elseif(!empty($_GET['sair'])){
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     </head>
     <body>
-        <div class="container my-5">
-            <form action="login.php" method="post">
+    <nav class="navbar navbar-dark bg-dark static-top">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">ERythm</a>
+            </di>
+        </nav>
+
+
+    <div class="container p-4">
+        <h2>Login de Adm</h2>
+            <form action="login.php" method="post" style="height: 350px;0px" class="p-3">
                 
                 <?php
                     if(isset($_GET['erro'])){ echo "Login ou senha errado. Tente novamente </br>"; }
                 ?>
 
-                <label>Login</label></br>
-                <input type="text" name="login" placeholder="Usuário"></br></br>
-                <label>Senha</label></br>
-                <input type="password" name="senha" placeholder="******"></br></br>
+                <div class="col d-flex justify-content-center p-4">
+                    <div classs="row"> <label class="mx-3">Login</label> </div>
+                    <div classs="row"> <input type="text" name="login" placeholder="Usuário"> </div>
+                </div>
+                <div class="col d-flex justify-content-center p-4">
+                    <div classs="row"> <label class="mx-3">Senha</label></br> </div>
+                    <div classs="row"> <input type="password" name="senha" placeholder="******"> </div>
+                </div>
+                <div class="col d-flex justify-content-center p-4">
+                    <input type="submit" value="Logar"></br>
+                </div>
 
-                <input type="submit" value="Logar"></br>
             </form>
         </div>
 

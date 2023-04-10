@@ -28,11 +28,13 @@ Util::verify();
         <nav class="navbar navbar-dark bg-dark static-top">
             <div class="container">
                 <a class="navbar-brand" href="#!">ERythm</a>
-                <a class="btn btn-primary" href="./UsuarioList.php">Usuários</a>
-                <a class="btn btn-primary" href="./DiscoList.php">Discos</a>
-                <a class="btn btn-primary" href="./PedidoList.php">Pedidos</a>
-                <a class="btn btn-danger" href='./login.php?sair=1'>Sair</a>             
-            </div>
+                <div class="btn-group">
+                    <a class="btn btn-dark" href="./UsuarioList.php">Usuários</a>
+                    <a class="btn btn-dark" href="./DiscoList.php">Discos</a>
+                    <a class="btn btn-dark" href="./PedidoList.php">Pedidos</a>
+                    <a class="btn btn-danger" href='./login.php?sair=1'>Sair</a>             
+                </div>
+            </di>
         </nav>
         <!-- Masthead-->
         <header class="masthead">

@@ -34,15 +34,17 @@ Util::verify();
     <nav class="navbar navbar-dark bg-dark static-top">
       <div class="container">
         <a class="navbar-brand" href="./main.php">ERythm</a>
-        <!--<a class="btn btn-primary hidden" href="./UsuarioList.php">Usuários</a>-->
-        <a class="btn btn-primary" href="./DiscoList.php">Discos</a>
-        <a class="btn btn-primary" href="./PedidoList.php">Pedidos</a>
-        <a class="btn btn-danger" href='./login.php?sair=1'>Sair</a>             
+          <div class="btn-group">
+              <a class="btn btn-dark" href="./UsuarioList.php">Usuários</a>
+              <a class="btn btn-dark" href="./DiscoList.php">Discos</a>
+              <a class="btn btn-dark" href="./PedidoList.php">Pedidos</a>
+              <a class="btn btn-danger" href='./login.php?sair=1'>Sair</a>             
+          </div>
       </div>
     </nav>
 
     <div class="container mt-5">
-      <h1>Listagem de Usuários</h1>
+      <h1>Listagem de Usuários</h1></br>
       <form action="UsuarioList.php" method="post">
         <div class="row">
           <div class="col-2">
