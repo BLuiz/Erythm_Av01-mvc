@@ -12,7 +12,7 @@ Util::verify();
         <meta name="author" content="" />
         <title>ERythm - O site que diz o ritmo que você precisa</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> 
+        <link rel="icon" type="image/x-icon" href="../bootstrap/assets/favicon.ico" /> 
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
         <!-- Google fonts-->
@@ -25,7 +25,7 @@ Util::verify();
     </head>
     <body>
         <!-- Navigation-->
-        <nav class="navbar navbar-light bg-light static-top">
+        <nav class="navbar navbar-dark bg-dark static-top">
             <div class="container">
                 <a class="navbar-brand" href="#!">ERythm</a>
                 <a class="btn btn-primary" href="./UsuarioList.php">Usuários</a>
@@ -112,21 +112,21 @@ Util::verify();
         <section class="showcase">
             <div class="container-fluid p-0">
                 <div class="row g-0">
-                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/disco2.jpg')"></div>
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('../bootstrap/assets/img/disco2.jpg')"></div>
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                         <h2>Por que discos?</h2>
                         <p class="lead mb-0">Nossa empresa se especializou com a compra e venda de discos por serem um material que foi muito famoso desde sua criação e está voltando para os top mais vendidos do mundo!</p>
                     </div>
                 </div>
                 <div class="row g-0">
-                    <div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/disco3.jpg')"></div>
+                    <div class="col-lg-6 text-white showcase-img" style="background-image: url('../bootstrap/assets/img/disco3.jpg')"></div>
                     <div class="col-lg-6 my-auto showcase-text">
                         <h2>Nossos clientes</h2>
                         <p class="lead mb-0">Nossos clientes são grandes colecionadores de discos antigos ou novos aspirantes amantes da música, nossa empresa visa e compartilha desse amor pela música, ou seja, todo amante da música é nosso possível cliente!!</p>
                     </div>
                 </div>
                 <div class="row g-0">
-                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/disco4.jpg')"></div>
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('../bootstrap/assets/img/disco4.jpg')"></div>
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                         <h2>Sobre as entregas</h2>
                         <p class="lead mb-0">Trabalhamos com o sistema de correios, onde você vai colocar seu endereço na hora da compra e embalamos e enviamos com todo cuidado, nossa empresa se responsabiliza por qualquer dano que acontecer no produto durante a viagem!</p>
@@ -141,21 +141,21 @@ Util::verify();
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="assets/img/disco6.png" alt="..." />
+                            <img class="img-fluid rounded-circle mb-3" src="../bootstrap/assets/img/disco6.png" alt="..." />
                             <h5>Ana Catarine Pinto.</h5>
                             <p class="font-weight-light mb-0">"Minha loja de comprar e trocar discos favorta!!!"</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="assets/img/disco7.png" alt="..." />
+                            <img class="img-fluid rounded-circle mb-3" src="../bootstrap/assets/img/disco7.png" alt="..." />
                             <h5>Eliando da Costa</h5>
                             <p class="font-weight-light mb-0">"Consegui varios discos rassímos por aqui, estou muito feliz tanto com o atendimento quanto a listagem!"</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="assets/img/disco5.png" alt="..." />
+                            <img class="img-fluid rounded-circle mb-3" src="../bootstrap/assets/img/disco5.png" alt="..." />
                             <h5>Linda Santos de Carvalho</h5>
                             <p class="font-weight-light mb-0">"A entrega foi muito rápida, gostei muito, queria levar TODOS os discos!!!!!"</p>
                         </div>
@@ -208,7 +208,7 @@ Util::verify();
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer bg-light">
+        <footer class="footer footer-dark bg-dark">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 h-100 text-center text-lg-start my-auto">

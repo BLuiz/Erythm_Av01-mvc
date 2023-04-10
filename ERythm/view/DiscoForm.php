@@ -22,8 +22,6 @@ if(!empty($_GET['id'])){
 ?>
 
 
-
-
 <!DOCTYPE html>
 <html>
 
@@ -37,7 +35,7 @@ if(!empty($_GET['id'])){
 
 <body>
     <!-- Navigation-->
-    <nav class="navbar navbar-light bg-light static-top">
+    <nav class="navbar navbar-dark bg-dark static-top">
             <div class="container">
                 <a class="navbar-brand" href="./main.php">ERythm</a>
                 <a class="btn btn-primary" href="./UsuarioList.php">Usuários</a>
@@ -82,7 +80,7 @@ if(!empty($_GET['id'])){
             </br>
 
             <input class="btn btn-success" type="submit" value="Salvar"/>
-            <a class="btn btn-primary" href="./main.php">Voltar</a>
+            <a class="btn btn-primary" href="./DiscoList.php">Voltar</a>
 
         </form>
     

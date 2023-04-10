@@ -31,7 +31,7 @@ Util::verify();
 
   <body>
     <!-- Navigation-->
-    <nav class="navbar navbar-light bg-light static-top">
+    <nav class="navbar navbar-dark bg-dark static-top">
       <div class="container">
         <a class="navbar-brand" href="./main.php">ERythm</a>
         <!--<a class="btn btn-primary hidden" href="./UsuarioList.php">Usuários</a>-->
